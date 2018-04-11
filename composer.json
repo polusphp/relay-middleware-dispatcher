@@ -1,0 +1,27 @@
+{
+    "name": "polus/relay-middleware-dispatcher",
+    "description": "relay middleware for polus",
+    "homepage": "https://github.com/polusphp/relay-middleware-dispatcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "andreas@oak-valley.se"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "polus/middleware-dispatcher": "^1.0",
+        "relay/relay": "2.x@dev",
+        "psr/http-message": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "http-interop/http-factory": "^0.3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Polus\\MiddlewareDispatcher\\Relay\\": "src/"
+        }
+    }
+}

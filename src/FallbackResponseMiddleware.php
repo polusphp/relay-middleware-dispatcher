@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Polus\MiddlewareDispatcher\Relay;
 
-use Interop\Http\Factory\ResponseFactoryInterface;
+use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Server\MiddlewareInterface;
